@@ -168,6 +168,10 @@ Il progetto è stato realizzato a scopo didattico per esercitarsi nell'integrazi
 
 con particolare attenzione alla programmazione asincrona e all'utilizzo di un approccio orientato agli oggetti in JavaScript.
 
+## Note
+Questo repository è stato creato durante un'esercitazione pratica su Git e GitHub.
+
 ## Crediti
 
 I dati e le immagini delle carte sono forniti tramite la **YGOPRODeck API**.
+
