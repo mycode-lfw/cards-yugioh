@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yu-Gi-Oh! Card Explorer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Yu-Gi-Oh! Card Explorer</h1>
+  </header>
+
+  <main>
+    <section id="form">
+      <form id="search-form" class="search-box">
+        <label for="search-input">Nome della carta</label>
+        <div class="search-row">
+          <input id="search-input" type="search" placeholder="Es. Dragon, Magician..." autocomplete="off">
+          <button type="submit">Cerca</button>
+        </div>
+      </form>
+
+      <p id="status" class="status" role="status" aria-live="polite"></p>
+    </section>
+
+    <section id="comparison" class="comparison" hidden>
+      <div class="section-heading">
+        <div><span>ARENA</span><h2>Confronto</h2></div>
+        <button id="reset-comparison" class="secondary" type="button">Azzera confronto</button>
+      </div>
+      <div id="comparison-content" class="comparison-content"></div>
+    </section>
+
+    <section aria-labelledby="results-title">
+      <div class="section-heading">
+        <div><span>ARCHIVIO</span><h2 id="results-title">Risultati</h2></div>
+        <strong id="result-count"></strong>
+      </div>
+      <div id="results" class="cards-grid"></div>
+    </section>
+  </main>
+</body>
+</html>
