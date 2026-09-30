@@ -1,0 +1,27 @@
+# File di sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# File temporanei
+*.tmp
+*.temp
+*.log
+
+# Backup
+*.bak
+*~
+
+# Dipendenze Node.js
+# Non utilizzate attualmente dal progetto,
+# ma ignorate nel caso vengano aggiunte in futuro.
+node_modules/
+
+# Variabili d'ambiente
+.env
+.env.*
+!.env.example
